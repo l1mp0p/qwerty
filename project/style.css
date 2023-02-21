@@ -1,0 +1,70 @@
+a {
+    color: black;
+}
+.wrapper{
+    color: black;
+}
+body {
+    background-image: url(gif5.gif);
+    background-size: cover;
+}
+.qwerty a {
+  text-decoration: none;
+}
+.qwerty li{
+    list-style: none;
+    height: 30px;
+    width: 100px;
+}
+.qwerty a:hover{
+    color:black;
+    font-size: 30px;
+}
+.qwerty ul {
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+}
+.ass{
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+}
+.ass1{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+}
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
+.back-gr-freind {
+    background-image: url(gif2.gif);
+    background-size: cover;
+}
