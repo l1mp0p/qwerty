@@ -1,0 +1,90 @@
+a {
+    color: black;
+}
+.wrapper{
+    color: black;
+}
+body {
+    background-image: url(gif5.gif);
+    background-size: cover;
+}
+.qwerty a {
+  text-decoration: none;
+}
+.qwerty li{
+    list-style: none;
+    height: 30px;
+    width: 100px;
+}
+.qwerty a:hover{
+    color:black;
+    font-size: 30px;
+}
+.qwerty ul {
+    display: flex;
+    justify-content:space-evenly;
+}
+.footer{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+}
+.ass{
+    font-size:50px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+}
+.ass1{
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: sans-serif;
+}
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
+.back-gr-freind {
+    background-image: url(gif2.gif);
+    background-size: cover;
+}
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity:0.6;
+    width: 250px;
+    height: 30px;
+    margin: 10px 15px 15px 10px;
+}
+.button {
+    background: white;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500.
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: red;
+    text-transform: uppercase
+}
